@@ -2,6 +2,10 @@
 
 This is a simple security system built using the **AT89C51 microcontroller**, where a user must enter a 4-digit password through a keypad. If the password is correct, access is granted (motor turns ON); otherwise, access is denied. After 3 wrong attempts, the system gets blocked temporarily.
 
+# Abstract
+
+To design and implement a keypad based pin protective security system, the system consists of a keypad, LCD, relay, motor as main components, if the user enters the wrong input the system does not open trigger the motor instead of it shows LCD as Access denied Try Again if the user enters wrong in more than 3 times, it shows LCD as Temporarily blocked and it makes alert by triggering buzzer, otherwise, if the user enters right pin it shows LCD as Access granted and triggers a motor.
+
 # What This Project Does
 
 - Accepts 4-digit password input via 4x3 keypad
